@@ -1,0 +1,28 @@
+<body>
+	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
+	<h1>Research Personnel</h1>
+	<h2>Current Personnel</h2>
+	<ul>
+		<% data["Current_personnel"].sort! %>
+		<% data["Current_personnel"].each do |n| %>
+		<li class = "names"> <% if n["link"].nil? %>
+			<%= n["name"] %> <%= n["info"] %>
+			<% else %>		
+			<a href = "<% = n["link"] %>" > <%= n["name"] %> </a><%= n["info"] %> 
+			<%end%>  
+		</li>
+		<%end%>
+	</ul>
+	<h2>Past Personnel</h2>
+	<ul>
+		<% data["Past_personnel"].sort! %>
+		<% data["Past_personnel"].each do |n| %>
+		<li class = "names"> <% if n["link"].nil? %>
+			<%= n["name"] %> <%= n["info"] %>
+			<% else %>		
+			<a href = "<% = n["link"] %>" > <%= n["name"] %> </a><%= n["info"] %> 
+			<% end %>  
+		</li>
+		<%end%>
+	</ul>
+</body>
