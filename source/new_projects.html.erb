@@ -1,2 +1,17 @@
 <body>
 	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
+	<h1>Research Projects</h1>
+	<h2><a href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></h2>
+	<ul>
+		<% data["projects"].sort! %>
+		<% data["projects"].each do |n| %>
+		<li class="big_bulletpts"><%= n["big_bullet"] %>
+			<% n["array"].sort! %>
+			<% n["array"].each do |m| %>
+			<ul>
+				<li class="names"> <a href = "<%m["link"]%>"> <%m["name"]%></a></li>
+				<%end%>
+			</ul>
+		</li>
+		<%end%>
+	</ul>

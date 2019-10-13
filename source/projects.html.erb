@@ -1,4 +1,8 @@
 <body>
+	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
+	<% data["teaching"].each do |n| %>
+	<p>hello</p>
+	<%end%>
 	<h1>Research Projects</h1>
 	<h2><a href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></h2>
 	<ul>
