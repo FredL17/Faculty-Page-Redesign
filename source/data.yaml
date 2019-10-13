@@ -1,16 +1,92 @@
 current_personnel:
-  - {name: "Cheng Xin",info: "PhD",link: ""}
-  - {name: "Jiayuan Wang",info: "PhD",link: ""}
-  - {name: "Ryan Slechta",info: "PhD",link: "http://web.cse.ohio-state.edu/~slechta.3/"}
-  - {name: "Sayan Mandal",info: "PhD",link: "http://web.cse.ohio-state.edu/~mandal.25/"}
-  - {name: "Soham Mukherjee",info: "PhD",link: ""}
-  - {name: "Tao Hou",info: "PhD",link: ""}
-  - {name: "Tianqi Li",info: "PhD",link: ""}
+   - {name: "Cheng Xin",info: "PhD",link: ""}
+   - {name: "Jiayuan Wang",info: "PhD",link: ""}
+   - {name: "Ryan Slechta",info: "PhD",link: "http://web.cse.ohio-state.edu/~slechta.3/"}
+   - {name: "Sayan Mandal",info: "PhD",link: "http://web.cse.ohio-state.edu/~mandal.25/"}
+   - {name: "Soham Mukherjee",info: "PhD",link: ""}
+   - {name: "Tao Hou",info: "PhD",link: ""}
+   - {name: "Tianqi Li",info: "PhD",link: ""}
 
-Projects: 
-  - {tag: p1, name: "some_name", children: children_of_p1}
-  - {tag: empty, name: "some_name", chidren: children_of_p2}
+past_personnel:
+   - {name: "Alfred Rossi",info: "Post-doc",link: ""}
+   - {name: "Andrew Slatton",info: "PhD",link: "https://www.researchgate.net/scientific-contributions/21388555_Andrew_G_Slatton"}
+   - {name: "Dayu Shi",info: "PhD, Google",link: ""}
+   - {name: "Fengtao Fan",info: "PhD, Google",link: ""}
+   - {name: "Hyuckje Woo",info: "Post-doc, Prof. KINST, Korea",link: ""}
+   - {name: "James Hudson",info: "Prof. at Swansee U.",link: ""}
+   - {name: "Jian Sun",info: "PhD, post-doc at Stanford and Princeton, Prof. Tsinghua U., China",link: "https://www.researchgate.net/profile/Jian_Sun52"}
+   - {name: "Joachim Giesen",info: "Post-doc, Prof. U. Jena, Germany",link: "http://www.mpi-inf.mpg.de/~jgiesen"}
+   - {name: "Joshua Levine",info: "PhD, post-doc at U. Utah, Prof. U. of Arizona",link: "https://jalevine.bitbucket.io/"}
+   - {name: "Kuiyu Li",info: "PhD, post-doc at Texas A&M",link: "https://www.researchgate.net/scientific-contributions/69726797_Kuiyu_Li"}
+   - {name: "Lei Wang",info: "Phd, Google",link: "https://www.linkedin.com/in/lei-wang-814ab333"}
+   - {name: "Luke Molnar",info: "Master",link: ""}
+   - {name: "Mickael Buchet",info: "post-doc, currently at Tohoku Univ., Japan",link: ""}
+   - {name: "Naveen Leekha",info: "Masters, NVIDA",link: ""}
+   - {name: "Oleksiy Busaryev",info: "PhD, Google",link: "https://www.linkedin.com/in/oleksiy-busaryev-31695b4"}
+   - {name: "Pawas Ranjan",info: "PhD",link: ""}
+   - {name: "Ramsay Dyer",info: "post-doc, currently at INRIA,France",link: "https://scholar.google.com/citations?user=hpNZqdUAAAAJ&hl=en"}
+   - {name: "Samrat Goswami",info: "PhD, post-doc at UT-Austin",link: "https://www.linkedin.com/in/samrat-goswami-b8819b15a"}
+   - {name: "Tathagata Ray",info: "PhD, Prof. BITS, Pilani,India",link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1155212604"}
+   - {name: "Wulue Zhao",info: "PhD",link: ""}
 
-children_of_p1:  
-  - {name: "c1", link: ""}
-  - {name: "c2", link: ""}
+projects:
+  - {tag: "p1",name: "Reconstruction",link: ""}
+  - {tag: "p2",name: "Meshing",link: "http://www.cse.ohio-state.edu/~tamaldey/mesh.html"}
+  - {tag: "p3",name: "Homology feature",link: ""}
+  - {tag: "p4",name: "Shape features",link: ""}
+  - {tag: "p5",name: "Data sparsification",link: ""}
+  - {tag: "emty",name: "Simplification",link: "http://www.cse.ohio-state.edu/~tamaldey/decim.htm"}
+
+children_of_p1:
+  - {name: "Curve reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/curverecon.htm"}
+  - {name: "Surface reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
+  - {name: "Non-smooth, non-manifold surface reconstruction", link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
+  - {name: "Boundary reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/isotopic.html"}
+
+children_of_p2:TODO
+
+children_of_p3:TODO
+
+children_of_p4:TODO
+
+children_of_p5:TODO
+
+software:
+  - {tag: "s1",name: "Reconstruction"}
+  - {tag: "s2",name: "Meshing"}
+  - {tag: "s3",name: "Homology feature"}
+  - {tag: "s4",name: "Data Sparsification"}
+  - {tag: "s5",name: "Shape features"}
+
+children_of_s1:
+  - {name: "Cocone:", link: "http://www.cse.ohio-state.edu/~tamaldey/cocone.html",text: "software for surface reconstruction based on ", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/undsamp/paper.pdf.gz", talk_slide_link: "",video_link: "", web_page_link: ""}
+
+children_of_s2:TODO
+
+children_of_s3:TODO
+
+children_of_s4:TODO
+
+children_of_s5:TODO
+
+teaching:
+  - {year: "2018-2019",term: "Spring",num: "CSE 6332",name: "Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
+  - {year: "2017-2018",term: "Spring",num: "CSE 5543",name: "Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
+  - {year: "2016-2017",term: "Spring",num: "CSE 5559",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {year: "2015-2016",term: "Fall",num: "CSE 2331",name: "Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
+  - {year: "2013-2014",term: "Fall",num: "CSE 5339",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {year: "2012-2013",term: "Fall",num: "CSE 6331",name: "Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
+  - {year: "2009-2010",term: "Winter",num: "CSE 625",name: "Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
+  - {year: "2005-2006",term: "Fall",num: "CIS 788",name: "Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
+  - {year: "2000-2001",term: "Winter",num: "CIS 888",name: "Subdivision surfaces",link: ""}
+  - {year: "1999-2000",term: "Spring",num: "",name: "Shape Modeling in graphics and visualization",link: ""}
+
+program_committee_member:
+  - {}
+
+invited_talks:
+  - {}
+
+other_activities:
+  - {}
+
