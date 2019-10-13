@@ -1,0 +1,12 @@
+teaching:
+	- {year: "2018-2019",term: "Spring",num: "CSE 6332",name: "Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
+	- {year: "2017-2018",term: "Spring",num: "CSE 5543",name: "Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
+	- {year: "2016-2017",term: "Spring",num: "CSE 5559",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+	- {year: "2015-2016",term: "Fall",num: "CSE 2331",name: "Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
+	- {year: "2013-2014",term: "Fall",num: "CSE 5339",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+	- {year: "2012-2013",term: "Fall",num: "CSE 6331",name: "Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
+	- {year: "2009-2010",term: "Winter",num: "CSE 625",name: "Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
+	- {year: "2005-2006",term: "Fall",num: "CIS 788",name: "Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
+	- {year: "2000-2001",term: "Winter",num: "CIS 888",name: "Subdivision surfaces",link: ""}
+	- {year: "1999-2000",term: "Spring",num: "",name: "Shape Modeling in graphics and visualization",link: ""}
+
