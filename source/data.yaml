@@ -1,12 +1,48 @@
+Current_personnel:
+  -{name: "Cheng Xin",info: "PhD",link: ""}
+  -{name: "Jiayuan Wang",info: "PhD",link: ""}
+  -{name: "Ryan Slechta",info: "PhD",link: "http://web.cse.ohio-state.edu/~slechta.3/"}
+  -{name: "Sayan Mandal",info: "PhD",link: "http://web.cse.ohio-state.edu/~mandal.25/"}
+  -{name: "Soham Mukherjee",info: "PhD",link: ""}
+  -{name: "Tao Hou",info: "PhD",link: ""}
+  -{name: "Tianqi Li",info: "PhD",link: ""}
+
+Past_personnel:
+  -{name: "Alfred Rossi",info: "Post-doc",link: ""}
+  -{name: "Andrew Slatton",info: "PhD",link: "https://www.researchgate.net/scientific-contributions/21388555_Andrew_G_Slatton"}
+  -{name: "Dayu Shi",info: "PhD, Google",link: ""}
+  -{name: "Fengtao Fan",info: "PhD, Google",link: ""}
+  -{name: "Hyuckje Woo",info: "Post-doc, Prof. KINST, Korea",link: ""}
+  -{name: "James Hudson",info: "Prof. at Swansee U.",link: ""}
+  -{name: "Jian Sun",info: "PhD, post-doc at Stanford and Princeton, Prof. Tsinghua U., China",link: "https://www.researchgate.net/profile/Jian_Sun52"}
+  -{name: "Joachim Giesen",info: "Post-doc, Prof. U. Jena, Germany",link: "http://www.mpi-inf.mpg.de/~jgiesen"}
+  -{name: "Joshua Levine",info: "PhD, post-doc at U. Utah, Prof. U. of Arizona",link: "https://jalevine.bitbucket.io/"}
+  -{name: "Kuiyu Li",info: "PhD, post-doc at Texas A&M",link: "https://www.researchgate.net/scientific-contributions/69726797_Kuiyu_Li"}
+  -{name: "Lei Wang",info: "Phd, Google",link: "https://www.linkedin.com/in/lei-wang-814ab333"}
+  -{name: "Luke Molnar",info: "Master",link: ""}
+  -{name: "Mickael Buchet",info: "post-doc, currently at Tohoku Univ., Japan",link: ""}
+  -{name: "Naveen Leekha",info: "Masters, NVIDA",link: ""}
+  -{name: "Oleksiy Busaryev",info: "PhD, Google",link: "https://www.linkedin.com/in/oleksiy-busaryev-31695b4"}
+  -{name: "Pawas Ranjan",info: "PhD",link: ""}
+  -{name: "Ramsay Dyer",info: "post-doc, currently at INRIA,France",link: "https://scholar.google.com/citations?user=hpNZqdUAAAAJ&hl=en"}
+  -{name: "Samrat Goswami",info: "PhD, post-doc at UT-Austin",link: "https://www.linkedin.com/in/samrat-goswami-b8819b15a"}
+  -{name: "Tathagata Ray",info: "PhD, Prof. BITS, Pilani,India",link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1155212604"}
+  -{name: "Wulue Zhao",info: "PhD",link: ""}
+
+Projects:
+  - {name: "Computational Geometry and Topology in Geometric Modeling and Graphics",link: "http://www.cse.ohio-state.edu/~tamaldey/geohome.html"}
+  - {name: "Reconstruction",link: "",array: [{a_name: "Curve reconstruction",a_link: "http://www.cse.ohio-state.edu/~tamaldey/curverecon.htm"},{a_name: "Surface reconstruction",a_link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"},{a_name: "Non-smooth, non-manifold surface reconstruction", a_link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"},{a_name: "Boundary reconstruction",a_link: "http://www.cse.ohio-state.edu/~tamaldey/isotopic.html"}]}
+
+
 teaching:
-	- {year: "2018-2019",term: "Spring",num: "CSE 6332",name: "Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
-	- {year: "2017-2018",term: "Spring",num: "CSE 5543",name: "Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
-	- {year: "2016-2017",term: "Spring",num: "CSE 5559",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
-	- {year: "2015-2016",term: "Fall",num: "CSE 2331",name: "Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
-	- {year: "2013-2014",term: "Fall",num: "CSE 5339",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
-	- {year: "2012-2013",term: "Fall",num: "CSE 6331",name: "Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
-	- {year: "2009-2010",term: "Winter",num: "CSE 625",name: "Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
-	- {year: "2005-2006",term: "Fall",num: "CIS 788",name: "Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
-	- {year: "2000-2001",term: "Winter",num: "CIS 888",name: "Subdivision surfaces",link: ""}
-	- {year: "1999-2000",term: "Spring",num: "",name: "Shape Modeling in graphics and visualization",link: ""}
+  - {year: "2018-2019",term: "Spring",num: "CSE 6332",name: "Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
+  - {year: "2017-2018",term: "Spring",num: "CSE 5543",name: "Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
+  - {year: "2016-2017",term: "Spring",num: "CSE 5559",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {year: "2015-2016",term: "Fall",num: "CSE 2331",name: "Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
+  - {year: "2013-2014",term: "Fall",num: "CSE 5339",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {year: "2012-2013",term: "Fall",num: "CSE 6331",name: "Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
+  - {year: "2009-2010",term: "Winter",num: "CSE 625",name: "Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
+  - {year: "2005-2006",term: "Fall",num: "CIS 788",name: "Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
+  - {year: "2000-2001",term: "Winter",num: "CIS 888",name: "Subdivision surfaces",link: ""}
+  - {year: "1999-2000",term: "Spring",num: "",name: "Shape Modeling in graphics and visualization",link: ""}
 
