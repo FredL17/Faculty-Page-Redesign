@@ -1,43 +1,22 @@
+<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
 <h1>Research Software</h1>
-	<h2 class="act">Data Sparsification</h2>
+<% data["softwares"].each do |n| %>
+<h2 class="act"><%= n["name"]%></h2>
 	<ul>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/GIC/GICsoftware">GIC</a>: software.</li>
-		<li><a href ="http://web.cse.ohio-state.edu/~tamaldey/SimBa/Simba.html">SimBa</a>: software (computes persistence of Rips filtration efficiently).</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/SimPers/Simpers.html">SimpPers</a>: software (computes persistence for simplicial maps).</li>
-	</ul>
-
-	<h2 class="act">Homology Features</h2>
-	<ul>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/hantun.html">HanTun</a>: software for computing handle and tunnel loops on surfaces based on <a href = "http://web.cse.ohio-state.edu/~dey.8/paper/hantun-persist/hantun.pdf"> paper</a> <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/hantun-persist/hantun-sig2008.mov">[video]</a>.</li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/PersLoop/">PersLoop</a>: software for persistent 1-cycles.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/handle/ReebHanTun-download/reebhantun.html">ReebHanTun</a>: software for handle and tunnel loops that does not require 3D tessellation, <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/reeb-hantun/reeb-hantun.pdf">paper</a>, <a href = "http://www.cse.ohio-state.edu/~tamaldey/handle/hantun.html">web-page</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/shortloop.html">ShortLoop</a>: software for computing loops in a shortest homology basis based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/pcdloop/pcdloop.pdf">paper</a>.</li>
-	</ul>
-
-	<h2 class="act">Meshing</h2>
-	<ul>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/deliso.html">DelIso</a>: software for Delaunay meshing of isosurfaces.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/delpsc.html">DelPSC</a>: software for Delaunay meshing of surfaces, volumes, complexes based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/delpsc/imr07.pdf">paper</a>, <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/delpsc/delpsc.ppt">talk slides</a>, <a href = "http://www.cse.ohio-state.edu/~tamaldey/delpsc/video">[video]</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/locdel-soft.html">LocDel</a>: software for generating large Delaunay meshes.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/locpsc.html">LocPSC</a>: Localized version of DelPSC, runs faster. based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/locpsc/locpsc.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/qualmesh.html">Qualmesh</a>: Software for quality Delaunay meshing of polyhedra based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/qualmesh/qualmesh.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/surfremesh.html">SurfRemesh</a>: software for Delaunay meshing of polygonal surfaces based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/remesh/remesh.pdf">paper</a>.</li>
-	</ul>
-
-	<h2 class="act">Reconstruction</h2>
-	<ul>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/amls.html">AMLS</a>: software for noisy point cloud smoothing based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/amls/amls-extend.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/cocone.html">Cocone</a>: Software for surface reconstruction based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/undsamp/paper.pdf.gz">paper</a>.</li>
-		<li><a href ="https://cse.osu.edu/graphics/research/CurveRecon/gathan.tar">Gathan</a>: software for curve reconstruction based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/sharp/paper.ps.gz">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/Crust/">Nearest Neighbor</a>: curve reconstruction Applet based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/curve/paper.ps.gz">paper and a topology clean up</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/Peel.html">Peel</a>: software for reconstructing surfaces with boundaries based on <a href="http://www.cse.ohio-state.edu/~tamaldey/paper/recon-bound/boundary.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html">SingularCocone</a>: software for reconstructing surfaces with singular features.</li>
-	</ul>
-
-	<h2 class="act">Shape Features</h2>
-	<ul>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/cskel.html">CurveSkel</a>: software for curve skeleton of 3D shapes based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/curve-skeleton/cskel.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/cocone.html">Medial</a>: Software for 3D medial axis based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/medial/medial-ex.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/normfet.html">NormFet</a>: software for normal and feature size estimation from point cloud based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/norfet/paper.pdf">paper</a>.</li>
-		<li><a href ="http://www.cse.ohio-state.edu/~tamaldey/segmatch.html">SegMatch</a>: Software for shape segmentation and shape matching based on <a href = "http://www.cse.ohio-state.edu/~tamaldey/paper/matching/feature.pdf">paper</a>.</li>
-	</ul>
+	<% data["children_of_#{n["tag"]}"].each do |m| %>
+	<li><a href = "<%= m["link"] %>"> <%= m["name"]%> </a><%= m["text"] %>
+		<% unless m["paper_link"]=="" %>
+		  <a href = "<%= m["paper_link"] %>">paper</a>
+          <% if m["web_page_link"] !=""%>
+          ,<a href = "<%= m["web_page_link"] %>">web-page</a>
+          <%elsif m["talk_slides_link"] != "" %>
+          ,<a href = "<%= m["talk_slides_link"] %>">talk-slides</a>
+          <%end%>
+          <% if m["video_link"] != "" %>
+          ,<a href = "<%= m["video_link"] %>">[video]</a>
+          <%end%>
+        <%end%>
+	    .</li>
+	  <%end%>
+    </ul>
+<%end%>

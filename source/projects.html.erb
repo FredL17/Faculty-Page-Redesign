@@ -1,53 +1,25 @@
-<body>
+	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
 	<h1>Research Projects</h1>
-
-	<h2 class="act">Data Sparsification</h2>
+	<h2 class="act"><a class = "anchor" href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></h2>
+	
 	<ul>
-		<li><a href = "http://web.cse.ohio-state.edu/~dey.8/GIC/gic.html">Graph Induced Complex</a></li>
+		<% data["projects"].each do |n| %>
+		<li>
+		<% if n["link"]=="" %>
+		  <%= n["name"]%>
+		<%else%>
+		  <a href = "<%= n["link"]%>"> <%= n["name"] %> </a>
+		<%end%>
+		<% unless n["tag"] == "empty" %>
+		  <ul>
+		  <% data["children_of_#{n["tag"]}"].each do |m| %>
+		  <li><a href = "<%= m["link"] %>">
+		  	<%= m["name"] %> </a></li>
+          <%end%>
+          </ul>
+		<%end%>
+		</li>
+		<%end%>
 	</ul>
-
-	<h2 class="act">Homology Features</h2>
-	<ul>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/handle/hantun.html">Handle and Tunnel Loops</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/homology.html">Optimal Homologous Cycles</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/homology.html">Shortest Homology Bassis</a></li>
-	</ul>
-
-
-	<h2 class="act"><a href = "http://web.cse.ohio-state.edu/~dey.8/mesh.html">Meshing</a></h2>
-	<ul>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/mesh-iso.htm">Isosurface</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/LocDel.html">Localized Delaunay Refinement</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/mesh-psc.html">Piecewise Smooth Complexes</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/mesh-volume.html">Polyhedra</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/mesh-smooth.html">Remeshing</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/mesh-smooth.html">Smooth Surface</a></li>
-	</ul>
-
-
-	<h2 class="act">Reconstruction</h2>
-	<ul>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/isotopic.html">Boundary Reconstruction</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/curverecon.htm">Curve Reconstruction</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/SingularCocone/singularcocone.html">Non-Smooth, Non-Manifold Surface Reconstruction</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/surfrecon.htm">Surface Reconstruction</a></li>
-	</ul>
-
-
-	<h2 class="act">Shape Features</h2>
-	<ul>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/cskel.html">Curve Skeletons</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/dimensiondetection.htm">Dimension Detection</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/medialaxis.htm">Medial Axis</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/normfet.html">Normal and Feature Approximation</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/segmentation.html">Shape Segmentation and Matching</a></li>
-	</ul>
-
-	<h2 class="act">Others</h2>
-	<ul>
-		<li><a href = "http://web.cse.ohio-state.edu/~dey.8/geometry-papers.htm">Computational and Combinatorial Geometry</a></li>
-		<li><a href = "http://web.cse.ohio-state.edu/~dey.8/topology-papers.htm">Computational Topology(NSF report)</a></li>
-		<li><a href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></li>
-	</ul>
-
-	<h2 class="act"><a href = "http://web.cse.ohio-state.edu/~dey.8/decim.htm">Simplification</a></h2>
+	<h2 class="act"><a class = "anchor" href = "http://web.cse.ohio-state.edu/~dey.8/geometry-papers.htm">Computational and Combinatorial Geometry</a></h2>
+	<h2 class="act"><a class = "anchor" href = "http://web.cse.ohio-state.edu/~dey.8/topology-papers.htm">Computational Topology(NSF report)</a></h2>
