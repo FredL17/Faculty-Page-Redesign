@@ -27,28 +27,66 @@ footer {
 
 }
 
-nav {
+.navbar {
   float: right;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 2.2em 2em;
-}
-nav ul li {
-  display: inline;
-  padding: 0 .4em;
+  padding-top: 25px;
+  padding-right: 50px;
+  display: inline-block;
+  overflow: hidden;
 }
 
-nav ul li a {
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
-  font-size: 1em;
-  color: #fafaf6;
-  padding-bottom: 1.3em;
 }
 
-nav ul li a:hover {
-  border-bottom: 3px solid #fafaf6;
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 114px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .intro_photo img{
@@ -170,10 +208,7 @@ activity ul li a:hover {
   color: #808080;
   text-decoration: underline;
 }
-
-h1, h2{
-  text-align: left;
-}
+<<<<<<< Updated upstream
 
 li.names{
   text-align: left;
@@ -190,3 +225,5 @@ li.big_bulletpts{
   font-size: 1.3em;
   font-weight: bold;
 }
+=======
+>>>>>>> Stashed changes
