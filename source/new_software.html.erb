@@ -4,16 +4,16 @@
 <h2 class="act"><%= n["name"]%></h2>
 	<ul>
 	<% data["children_of_#{n["tag"]}"].each do |m| %>
-	<li><a href = "<%= m["link"] %>"> <%= m["name"] %> </a><%= m["text"] %>
+	<li><a href = "<%= m["link"] %>"> <%= m["name"]%> </a><%= m["text"] %>
 		<% unless m["paper_link"]=="" %>
-		  <a href = "<%= m["paper_link"] %>"> paper</a>
+		  <a href = "<%= m["paper_link"] %>">paper</a>
           <% if m["web_page_link"] !=""%>
-          ,<a href = "<%= m["web_page_link"] %>"> web-page</a>
+          ,<a href = "<%= m["web_page_link"] %>">web-page</a>
           <%elsif m["talk_slides_link"] != "" %>
-          ,<a href = "<%= m["talk_slides_link"] %>"> talk-slides</a>
+          ,<a href = "<%= m["talk_slides_link"] %>">talk-slides</a>
           <%end%>
           <% if m["video_link"] != "" %>
-          ,<a href = "<%= m["video_link"] %>"> [video]</a>
+          ,<a href = "<%= m["video_link"] %>">[video]</a>
           <%end%>
         <%end%>
 	    .</li>
