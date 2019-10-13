@@ -5,7 +5,7 @@
 ***
 
 ## Overview
-The Code Fellas team was tasked with redesigning a static web site. The site chosen was Professor Dey's [website](http://web.cse.ohio-state.edu/~dey.8/)). The app is equipped with Middleman framework (https://middlemanapp.com). 
+The Code Fellas team was tasked with redesigning a static web site. The site chosen was Professor Dey's [website](http://web.cse.ohio-state.edu/~dey.8/). The app is equipped with Middleman framework (https://middlemanapp.com). 
 
 
 ## Instructions
