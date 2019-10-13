@@ -2,10 +2,10 @@
 	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
 	<% puts data %>
 	<h1>Research Personnel</h1>
-	<h2>Current Personnel</h2>
+	<h2 class="act">Current Personnel</h2>
 	<ul>
 		<% data["current_personnel"].each do |n| %>
-		<li class = "names">
+		<li>
 			<%if n["link"].nil? %>
 			<%= n["name"]%>
 			<%= n["info"]%>
@@ -17,6 +17,7 @@
 		</li>
 		<%end%>
 	</ul>
+	<h2 class="act">Past Personnel</h2>
 	<ul>
 		<% data["past_personnel"].each do |n| %>
 		<li class = "names">
