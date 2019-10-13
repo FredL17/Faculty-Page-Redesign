@@ -41,17 +41,17 @@ children_of_p1:
   - {name: "Graph Induced Complex",link: "http://web.cse.ohio-state.edu/~dey.8/GIC/gic.html"}
 
 children_of_p2:
-  - {name: "Handle and Tunnel Loops",link: ""}
-  - {name: "Optimal Homologous Cycles",link: ""}
-  - {name: "Shortest Homology Bassis",link: ""}
+  - {name: "Handle and Tunnel Loops",link: "http://web.cse.ohio-state.edu/~dey.8/handle/hantun.html"}
+  - {name: "Optimal Homologous Cycles",link: "http://web.cse.ohio-state.edu/~dey.8/homology.html"}
+  - {name: "Shortest Homology Bassis",link: "http://web.cse.ohio-state.edu/~dey.8/homology.html"}
 
 children_of_p3:
-  - {name: "Isosurface",link: ""}
-  - {name: "Localized Delaunay Refinement",link: ""}
-  - {name: "Piecewise Smooth Complexes",link: ""}
-  - {name: "Polyhedra",link: ""}
-  - {name: "Remeshing",link: ""}
-  - {name: "Smooth Surface",link: ""}
+  - {name: "Isosurface",link: "http://web.cse.ohio-state.edu/~dey.8/mesh-iso.htm"}
+  - {name: "Localized Delaunay Refinement",link: "http://web.cse.ohio-state.edu/~dey.8/LocDel.html"}
+  - {name: "Piecewise Smooth Complexes",link: "http://web.cse.ohio-state.edu/~dey.8/mesh-psc.html"}
+  - {name: "Polyhedra",link: "http://web.cse.ohio-state.edu/~dey.8/mesh-volume.html"}
+  - {name: "Remeshing",link: "http://web.cse.ohio-state.edu/~dey.8/mesh-smooth.html"}
+  - {name: "Smooth Surface",link: "http://web.cse.ohio-state.edu/~dey.8/mesh-smooth.html"}
 
 children_of_p4:
   - {name: "Boundary reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/isotopic.html"}
@@ -60,29 +60,51 @@ children_of_p4:
   - {name: "Surface reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
 
 children_of_p5:
-  - {name: "",link: ""}
-  - {name: "",link: ""}
-  - {name: "",link: ""}
-  - {name: "",link: ""}
-  - {name: "",link: ""}
+  - {name: "Curve Skeletons",link: "http://web.cse.ohio-state.edu/~dey.8/cskel.html"}
+  - {name: "Dimension Detection",link: "http://web.cse.ohio-state.edu/~dey.8/dimensiondetection.htm"}
+  - {name: "Medial Axis",link: "http://web.cse.ohio-state.edu/~dey.8/medialaxis.htm"}
+  - {name: "Normal and Feature Approximation",link: "http://web.cse.ohio-state.edu/~dey.8/normfet.html"}
+  - {name: "Shape Segmentation and Matching",link: "http://web.cse.ohio-state.edu/~dey.8/segmentation.html"}
 
-software:
+softwares:
   - {tag: "s1",name: "Data Sparsification"}
-  - {tag: "s1",name: "Reconstruction"}
-  - {tag: "s2",name: "Meshing"}
-  - {tag: "s3",name: "Homology feature"}
+  - {tag: "s2",name: "Homology feature"}
+  - {tag: "s3",name: "Meshing"}
+  - {tag: "s4",name: "Reconstruction"}
   - {tag: "s5",name: "Shape features"}
 
 children_of_s1:
+  - {name: "GIC:", link: "http://www.cse.ohio-state.edu/~tamaldey/GIC/GICsoftware",text: "software", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "SimBa:", link: "http://web.cse.ohio-state.edu/~tamaldey/SimBa/Simba.html",text: "software (computes persistence of Rips filtration efficiently)", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "SimpPers:", link: "http://www.cse.ohio-state.edu/~tamaldey/SimPers/Simpers.html",text: "software (computes persistence for simplicial maps)", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+
+children_of_s2:
+  - {name: "HanTun:", link: "http://web.cse.ohio-state.edu/~dey.8/hantun.html",text: "software for computing handle and tunnel loops on surfaces based on", paper_link: "http://web.cse.ohio-state.edu/~dey.8/paper/hantun-persist/hantun.pdf", talk_slide_link: "",video_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/hantun-persist/hantun-sig2008.mov", web_page_link: ""}
+  - {name: "PersLoop:", link: "http://web.cse.ohio-state.edu/~dey.8/PersLoop/",text: "software for persistent 1-cycles", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "ReebHanTun:", link: "http://www.cse.ohio-state.edu/~tamaldey/handle/ReebHanTun-download/reebhantun.html",text: "software for handle and tunnel loops that does not require 3D tessellation", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/reeb-hantun/reeb-hantun.pdf", talk_slide_link: "",video_link: "", web_page_link: "http://www.cse.ohio-state.edu/~tamaldey/handle/hantun.html"}
+  - {name: "ShortLoop:", link: "http://www.cse.ohio-state.edu/~tamaldey/shortloop.html",text: "software for computing loops in a shortest homology basis based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/pcdloop/pcdloop.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+
+children_of_s3:
+  - {name: "DelIso:", link: "http://www.cse.ohio-state.edu/~tamaldey/deliso.html",text: "software for Delaunay meshing of isosurfaces", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "DelPSC:", link: "http://www.cse.ohio-state.edu/~tamaldey/delpsc.html",text: "software for Delaunay meshing of surfaces, volumes, complexes based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/delpsc/imr07.pdf", talk_slide_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/delpsc/delpsc.ppt",video_link: "http://www.cse.ohio-state.edu/~tamaldey/delpsc/video", web_page_link: ""}
+  - {name: "LocDel:", link: "http://www.cse.ohio-state.edu/~tamaldey/locdel-soft.html",text: "software for generating large Delaunay meshes", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "LocPSC:", link: "http://www.cse.ohio-state.edu/~tamaldey/locpsc.html",text: "Localized version of DelPSC, runs faster. based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/locpsc/locpsc.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "Qualmesh:", link: "http://www.cse.ohio-state.edu/~tamaldey/qualmesh.html",text: "software for Delaunay meshing of polygonal surfaces based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/qualmesh/qualmesh.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "SurfRemesh:", link: "http://www.cse.ohio-state.edu/~tamaldey/surfremesh.html",text: "software for Delaunay meshing of polygonal surfaces based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/remesh/remesh.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+
+children_of_s4:
+  - {name: "AMLS:", link: "http://www.cse.ohio-state.edu/~tamaldey/amls.html",text: "software for noisy point cloud smoothing based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/amls/amls-extend.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
   - {name: "Cocone:", link: "http://www.cse.ohio-state.edu/~tamaldey/cocone.html",text: "software for surface reconstruction based on ", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/undsamp/paper.pdf.gz", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "Gathan:", link: "https://cse.osu.edu/graphics/research/CurveRecon/gathan.tar",text: "software for curve reconstruction based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/sharp/paper.ps.gz", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "Nearest Neighbor:", link: "http://www.cse.ohio-state.edu/~tamaldey/Crust/",text: "curve reconstruction Applet based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/curve/paper.ps.gz", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "Peel:", link: "http://www.cse.ohio-state.edu/~tamaldey/Peel.html",text: "software for reconstructing surfaces with boundaries based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/recon-bound/boundary.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "SingularCocone:", link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html",text: "software for reconstructing surfaces with singular features", paper_link: "", talk_slide_link: "",video_link: "", web_page_link: ""}
 
-children_of_s2:TODO
-
-children_of_s3:TODO
-
-children_of_s4:TODO
-
-children_of_s5:TODO
+children_of_s5:
+  - {name: "CurveSkel:", link: "http://www.cse.ohio-state.edu/~tamaldey/cskel.html",text: "software for curve skeleton of 3D shapes based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/curve-skeleton/cskel.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "Medial:", link: "http://www.cse.ohio-state.edu/~tamaldey/cocone.html",text: "Software for 3D medial axis based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/medial/medial-ex.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "NormFet:", link: "http://www.cse.ohio-state.edu/~tamaldey/normfet.html",text: "software for normal and feature size estimation from point cloud based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/norfet/paper.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
+  - {name: "SegMatch:", link: "http://www.cse.ohio-state.edu/~tamaldey/segmatch.html",text: "Software for shape segmentation and shape matching based on", paper_link: "http://www.cse.ohio-state.edu/~tamaldey/paper/matching/feature.pdf", talk_slide_link: "",video_link: "", web_page_link: ""}
 
 teaching:
   - {time: "Spring 2019",name: "CSE 6332 Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
