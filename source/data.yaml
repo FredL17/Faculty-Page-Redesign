@@ -30,32 +30,47 @@ past_personnel:
    - {name: "Wulue Zhao",info: "PhD",link: ""}
 
 projects:
-  - {tag: "p1",name: "Reconstruction",link: ""}
-  - {tag: "p2",name: "Meshing",link: "http://www.cse.ohio-state.edu/~tamaldey/mesh.html"}
-  - {tag: "p3",name: "Homology feature",link: ""}
-  - {tag: "p4",name: "Shape features",link: ""}
-  - {tag: "p5",name: "Data sparsification",link: ""}
+  - {tag: "p1",name: "Data sparsification",link: ""}
+  - {tag: "p2",name: "Homology feature",link: ""}
+  - {tag: "p3",name: "Meshing",link: "http://www.cse.ohio-state.edu/~tamaldey/mesh.html"}
+  - {tag: "p4",name: "Reconstruction",link: ""}
+  - {tag: "p5",name: "Shape features",link: ""}
   - {tag: "emty",name: "Simplification",link: "http://www.cse.ohio-state.edu/~tamaldey/decim.htm"}
 
 children_of_p1:
-  - {name: "Curve reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/curverecon.htm"}
-  - {name: "Surface reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
-  - {name: "Non-smooth, non-manifold surface reconstruction", link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
+  - {name: "Graph Induced Complex",link: "http://web.cse.ohio-state.edu/~dey.8/GIC/gic.html"}
+
+children_of_p2:
+  - {name: "Handle and Tunnel Loops",link: ""}
+  - {name: "Optimal Homologous Cycles",link: ""}
+  - {name: "Shortest Homology Bassis",link: ""}
+
+children_of_p3:
+  - {name: "Isosurface",link: ""}
+  - {name: "Localized Delaunay Refinement",link: ""}
+  - {name: "Piecewise Smooth Complexes",link: ""}
+  - {name: "Polyhedra",link: ""}
+  - {name: "Remeshing",link: ""}
+  - {name: "Smooth Surface",link: ""}
+
+children_of_p4:
   - {name: "Boundary reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/isotopic.html"}
+  - {name: "Curve reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/curverecon.htm"}
+  - {name: "Non-smooth, non-manifold surface reconstruction", link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
+  - {name: "Surface reconstruction",link: "http://www.cse.ohio-state.edu/~tamaldey/SingularCocone/singularcocone.html"}
 
-children_of_p2:TODO
-
-children_of_p3:TODO
-
-children_of_p4:TODO
-
-children_of_p5:TODO
+children_of_p5:
+  - {name: "",link: ""}
+  - {name: "",link: ""}
+  - {name: "",link: ""}
+  - {name: "",link: ""}
+  - {name: "",link: ""}
 
 software:
+  - {tag: "s1",name: "Data Sparsification"}
   - {tag: "s1",name: "Reconstruction"}
   - {tag: "s2",name: "Meshing"}
   - {tag: "s3",name: "Homology feature"}
-  - {tag: "s4",name: "Data Sparsification"}
   - {tag: "s5",name: "Shape features"}
 
 children_of_s1:
@@ -70,16 +85,16 @@ children_of_s4:TODO
 children_of_s5:TODO
 
 teaching:
-  - {year: "2018-2019",term: "Spring",num: "CSE 6332",name: "Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
-  - {year: "2017-2018",term: "Spring",num: "CSE 5543",name: "Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
-  - {year: "2016-2017",term: "Spring",num: "CSE 5559",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
-  - {year: "2015-2016",term: "Fall",num: "CSE 2331",name: "Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
-  - {year: "2013-2014",term: "Fall",num: "CSE 5339",name: "Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
-  - {year: "2012-2013",term: "Fall",num: "CSE 6331",name: "Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
-  - {year: "2009-2010",term: "Winter",num: "CSE 625",name: "Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
-  - {year: "2005-2006",term: "Fall",num: "CIS 788",name: "Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
-  - {year: "2000-2001",term: "Winter",num: "CIS 888",name: "Subdivision surfaces",link: ""}
-  - {year: "1999-2000",term: "Spring",num: "",name: "Shape Modeling in graphics and visualization",link: ""}
+  - {time: "Spring 2019",name: "CSE 6332 Advanced Algorithm",link: "http://web.cse.ohio-state.edu/~dey.8/course/6332/"}
+  - {time: "Spring 2018",name: "CSE 5543 Geometric Modeling",link: "http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html"}
+  - {time: "Spring 2017",name: "CSE 5559 Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {time: "Fall 2015",name: "CSE 2331 Data Structure & Algorithms",link: "https://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf"}
+  - {time: "Fall 2013",name: "CSE 5339 Computational Topology and Data Analysis",link: "http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html"}
+  - {time: "Fall 2012",name: "CSE 6331 Algorithms",link: "http://web.cse.ohio-state.edu/~dey.8/course/6331/"}
+  - {time: "Winter 2009",name: "CSE 625 Formal Languages and Automata Theory",link: "http://web.cse.ohio-state.edu/~dey.8/course/625/"}
+  - {time: "Fall 2005",name: "CIS 788 Sample Based Modeling for Graphics and Visualization",link: "http://web.cse.ohio-state.edu/~dey.8/course/788/"}
+  - {time: "Winter 2000",name: "CIS 888 Subdivision surfaces",link: ""}
+  - {time: "Spring 2000",name: "Shape Modeling in graphics and visualization",link: ""}
 
 program_committee_member:
   - {}
