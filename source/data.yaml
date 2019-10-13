@@ -35,7 +35,7 @@ projects:
   - {tag: "p3",name: "Meshing",link: "http://www.cse.ohio-state.edu/~tamaldey/mesh.html"}
   - {tag: "p4",name: "Reconstruction",link: ""}
   - {tag: "p5",name: "Shape features",link: ""}
-  - {tag: "emty",name: "Simplification",link: "http://www.cse.ohio-state.edu/~tamaldey/decim.htm"}
+  - {tag: "empty",name: "Simplification",link: "http://www.cse.ohio-state.edu/~tamaldey/decim.htm"}
 
 children_of_p1:
   - {name: "Graph Induced Complex",link: "http://web.cse.ohio-state.edu/~dey.8/GIC/gic.html"}

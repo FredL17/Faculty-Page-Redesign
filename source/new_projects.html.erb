@@ -1,22 +1,25 @@
-<body>
 	<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
 	<h1>Research Projects</h1>
-	<h2><a href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></h2>
+	<h2 class="act"><a class = "anchor" href ="http://web.cse.ohio-state.edu/~dey.8/geohome.html">Computational Geometry and Topology in Geometric Modeling and Graphics</a></h2>
+	
 	<ul>
-
-		<% data["Projects"].each do |n| %>
-		<li class = "names">
-			<%= n["name"]%>
-		</li>
+		<% data["projects"].each do |n| %>
+		<li>
+		<% if n["link"].nil? %>
+		  <%= n["name"]%>
+		<%else%>
+		  <a href = "<%= n["link"]%>"> <%= n["name"] %> </a>
+		<%end%>
 		<% unless n["tag"] == "empty" %>
 		  <ul>
-			<% data["children_of_#{n["tag"]}"].each do |m| %>
-			<li>
-				<%= m["name"] %>
-			</li>
-			<%end%>
-		  </ul>
-		<%end%>	
+		  <% data["children_of_#{n["tag"]}"].each do |m| %>
+		  <li><a href = "<%= m["link"] %>">
+		  	<%= m["name"] %> </a></li>
+          <%end%>
+          </ul>
+		<%end%>
+		</li>
 		<%end%>
 	</ul>
-</body>
+	<h2 class="act"><a class = "anchor" href = "http://web.cse.ohio-state.edu/~dey.8/geometry-papers.htm">Computational and Combinatorial Geometry</a></h2>
+	<h2 class="act"><a class = "anchor" href = "http://web.cse.ohio-state.edu/~dey.8/topology-papers.htm">Computational Topology(NSF report)</a></h2>
