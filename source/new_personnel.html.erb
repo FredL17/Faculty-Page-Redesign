@@ -5,7 +5,7 @@
 	<ul>
 		<% data["current_personnel"].each do |n| %>
 		<li>
-			<%if n["link"].nil? %>
+			<%if n["link"]=="" %>
 			<%= n["name"]%>,
 			<%= n["info"]%>
 			<%else%>
@@ -20,7 +20,7 @@
 	<ul>
 		<% data["past_personnel"].each do |n| %>
 		<li class = "names">
-			<%if n["link"].nil? %>
+			<%if n["link"]=="" %>
 			<%= n["name"]%>,
 			<%= n["info"]%>
 			<%else%>

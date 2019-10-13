@@ -5,7 +5,7 @@
 	<ul>
 		<% data["projects"].each do |n| %>
 		<li>
-		<% if n["link"].nil? %>
+		<% if n["link"]=="" %>
 		  <%= n["name"]%>
 		<%else%>
 		  <a href = "<%= n["link"]%>"> <%= n["name"] %> </a>
