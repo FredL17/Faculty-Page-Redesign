@@ -1,49 +1,18 @@
-
+<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
 <h1>Teaching</h1>
-
 <table id = "teaching">
   <tr>
     <th>Semester</th>
     <th>Class Name</th>
   </tr>
+  <% data["teaching"].each do |n| %>
   <tr>
-    <td>Spring 2019</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/6332/">CSE 6332 Advanced Algorithms</a></td>
+    <td><%= n["time"]%></td>
+    <%if n["link"]=="" %>
+		<td><%= n["name"]%></td>
+		<%else%>
+		<td><a href=<%= n["link"]%>><%= n["name"]%></a></td>
+		<%end%>
   </tr>
-  <tr>
-    <td>Spring 2018</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/784/syllabus.html">CSE 5543 Geometric Modeling</a></td>
-  </tr>
-	<tr>
-    <td>Spring 2017</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html">CSE 5559 Computational Topology and Data Analysis</a></td>
-  </tr>
-	<tr>
-		<td>Autumn 2015</td>
-		<td>CSE 2331 Data Structure & Algorithms</td>
-	</tr>
-	<tr>
-    <td>Autumn 2013</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/CTDA/CTDA.html">CSE 5339 Computational Topology and Data Analysis</a></td>
-  </tr>
-	<tr>
-    <td>Autumn 2012</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/6331/">CSE 6331 Algorithms</a></td>
-  </tr>
-  <tr>
-    <td>Winter 2009</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/625/">Formal Languages and Automata Theory</a></td>
-  </tr>
-  <tr>
-    <td>Autumn 2005</td>
-    <td><a href="http://web.cse.ohio-state.edu/~dey.8/course/788/">Sample Based Modeling for Graphics and Visualization</a></td>
-  </tr>
-	<tr>
-		<td>Winter 2000</td>
-		<td>Subdivision surfaces</td>
-	</tr>
-	<tr>
-		<td>Spring 2000</td>
-		<td>Shape Modeling in graphics and visualization </td>
-	</tr>
+  <%end%>
 </table>
