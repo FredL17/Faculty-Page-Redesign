@@ -332,8 +332,8 @@ children_of_o6:
 children_of_o7:
   - {name: "TGDA@OSU 2016, conference on topology, geometry, and data analysis", link: "http://www.tgda.osu.edu/tgda-conf-osu.html"}
   - {name: "Workshop on Computational Topology and Data Analysis", link: ""}
-  - {name: "Mini-symposium on "Geometric modeling with point samples", SIAM Geometric Design, 2003", link: ""}
-  - {name: "Mini-Symposium on  "Delaunay Meshing of Surfaces and Volumes", SIAM Geometric Design, 2005", link: "http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=4865"}
+  - {name: "Mini-symposium on Geometric modeling with point samples", SIAM Geometric Design, 2003", link: ""}
+  - {name: "Mini-Symposium on Delaunay Meshing of Surfaces and Volumes", SIAM Geometric Design, 2005", link: "http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=4865"}
   - {name: "DIMACS Surface Reconstruction Implementation Challenge, 2003", link: "http://www.cse.ohio-state.edu/~tamaldey/sr-challenge.ppt"}
 
 children_of_o8:
@@ -342,4 +342,3 @@ children_of_o8:
   - {name: "Summer school on computational geometry Fu-Berlin, October, 2003", link: ""}
   - {name: "Surface and Volume meshing, CAD/Graphics 2005, Hong-Kong", link: ""}
   - {name: "Reconstruction and feature extraction from point cloud data with mathematical reasoning, SIAM conference on Geometric Design, Phoenix, 2005", link: "http://www.siam.org/meetings/gd05/"}
-

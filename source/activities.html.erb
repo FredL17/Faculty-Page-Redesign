@@ -22,7 +22,7 @@
 	<% if n["tag"] != "" %>
 	   <ul>
 	   	<% data["children_of_#{n["tag"]}"].each do |m| %>
-	   	<li> <%= m["text"] %> </li>
+	   	<li class="outer"> <%= m["text"] %> </li>
 	   	<%end%>
 	   </ul>
 	<%end%>
@@ -37,15 +37,12 @@
   <ul>
   <% data["children_of_#{n["tag"]}"].each do |m| %>
   <% if m["link"] !="" %>
-    <li><a href ="<%= m["link"] %>"><%= m["name"]%></a></li>
+    <li class="outer"><a href ="<%= m["link"] %>"><%= m["name"]%></a></li>
   <%else%>
-  <li><%= m["name"]%></li>
+  <li class="outer"><%= m["name"]%></li>
   <%end%>
 <%end%>
 </ul>
 </li>
 <%end%>
 </ul>
-
-
-
