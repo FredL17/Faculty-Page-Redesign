@@ -1,33 +1,33 @@
 current_personnel:
-   - {name: "Cheng Xin",info: "PhD",link: ""}
-   - {name: "Jiayuan Wang",info: "PhD",link: ""}
-   - {name: "Ryan Slechta",info: "PhD",link: "http://web.cse.ohio-state.edu/~slechta.3/"}
-   - {name: "Sayan Mandal",info: "PhD",link: "http://web.cse.ohio-state.edu/~mandal.25/"}
-   - {name: "Soham Mukherjee",info: "PhD",link: ""}
-   - {name: "Tao Hou",info: "PhD",link: ""}
-   - {name: "Tianqi Li",info: "PhD",link: ""}
+  - {name: "Cheng Xin",info: "PhD",link: ""}
+  - {name: "Jiayuan Wang",info: "PhD",link: ""}
+  - {name: "Ryan Slechta",info: "PhD",link: "http://web.cse.ohio-state.edu/~slechta.3/"}
+  - {name: "Sayan Mandal",info: "PhD",link: "http://web.cse.ohio-state.edu/~mandal.25/"}
+  - {name: "Soham Mukherjee",info: "PhD",link: ""}
+  - {name: "Tao Hou",info: "PhD",link: ""}
+  - {name: "Tianqi Li",info: "PhD",link: ""}
 
 past_personnel:
-   - {name: "Alfred Rossi",info: "Post-doc",link: ""}
-   - {name: "Andrew Slatton",info: "PhD",link: "https://www.researchgate.net/scientific-contributions/21388555_Andrew_G_Slatton"}
-   - {name: "Dayu Shi",info: "PhD, Google",link: ""}
-   - {name: "Fengtao Fan",info: "PhD, Google",link: ""}
-   - {name: "Hyuckje Woo",info: "Post-doc, Prof. KINST, Korea",link: ""}
-   - {name: "James Hudson",info: "Prof. at Swansee U.",link: ""}
-   - {name: "Jian Sun",info: "PhD, post-doc at Stanford and Princeton, Prof. Tsinghua U., China",link: "https://www.researchgate.net/profile/Jian_Sun52"}
-   - {name: "Joachim Giesen",info: "Post-doc, Prof. U. Jena, Germany",link: "http://www.mpi-inf.mpg.de/~jgiesen"}
-   - {name: "Joshua Levine",info: "PhD, post-doc at U. Utah, Prof. U. of Arizona",link: "https://jalevine.bitbucket.io/"}
-   - {name: "Kuiyu Li",info: "PhD, post-doc at Texas A&M",link: "https://www.researchgate.net/scientific-contributions/69726797_Kuiyu_Li"}
-   - {name: "Lei Wang",info: "Phd, Google",link: "https://www.linkedin.com/in/lei-wang-814ab333"}
-   - {name: "Luke Molnar",info: "Master",link: ""}
-   - {name: "Mickael Buchet",info: "post-doc, currently at Tohoku Univ., Japan",link: ""}
-   - {name: "Naveen Leekha",info: "Masters, NVIDA",link: ""}
-   - {name: "Oleksiy Busaryev",info: "PhD, Google",link: "https://www.linkedin.com/in/oleksiy-busaryev-31695b4"}
-   - {name: "Pawas Ranjan",info: "PhD",link: ""}
-   - {name: "Ramsay Dyer",info: "post-doc, currently at INRIA,France",link: "https://scholar.google.com/citations?user=hpNZqdUAAAAJ&hl=en"}
-   - {name: "Samrat Goswami",info: "PhD, post-doc at UT-Austin",link: "https://www.linkedin.com/in/samrat-goswami-b8819b15a"}
-   - {name: "Tathagata Ray",info: "PhD, Prof. BITS, Pilani,India",link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1155212604"}
-   - {name: "Wulue Zhao",info: "PhD",link: ""}
+  - {name: "Alfred Rossi",info: "Post-doc",link: ""}
+  - {name: "Andrew Slatton",info: "PhD",link: "https://www.researchgate.net/scientific-contributions/21388555_Andrew_G_Slatton"}
+  - {name: "Dayu Shi",info: "PhD, Google",link: ""}
+  - {name: "Fengtao Fan",info: "PhD, Google",link: ""}
+  - {name: "Hyuckje Woo",info: "Post-doc, Prof. KINST, Korea",link: ""}
+  - {name: "James Hudson",info: "Prof. at Swansee U.",link: ""}
+  - {name: "Jian Sun",info: "PhD, post-doc at Stanford and Princeton, Prof. Tsinghua U., China",link: "https://www.researchgate.net/profile/Jian_Sun52"}
+  - {name: "Joachim Giesen",info: "Post-doc, Prof. U. Jena, Germany",link: "http://www.mpi-inf.mpg.de/~jgiesen"}
+  - {name: "Joshua Levine",info: "PhD, post-doc at U. Utah, Prof. U. of Arizona",link: "https://jalevine.bitbucket.io/"}
+  - {name: "Kuiyu Li",info: "PhD, post-doc at Texas A&M",link: "https://www.researchgate.net/scientific-contributions/69726797_Kuiyu_Li"}
+  - {name: "Lei Wang",info: "Phd, Google",link: "https://www.linkedin.com/in/lei-wang-814ab333"}
+  - {name: "Luke Molnar",info: "Master",link: ""}
+  - {name: "Mickael Buchet",info: "post-doc, currently at Tohoku Univ., Japan",link: ""}
+  - {name: "Naveen Leekha",info: "Masters, NVIDA",link: ""}
+  - {name: "Oleksiy Busaryev",info: "PhD, Google",link: "https://www.linkedin.com/in/oleksiy-busaryev-31695b4"}
+  - {name: "Pawas Ranjan",info: "PhD",link: ""}
+  - {name: "Ramsay Dyer",info: "post-doc, currently at INRIA,France",link: "https://scholar.google.com/citations?user=hpNZqdUAAAAJ&hl=en"}
+  - {name: "Samrat Goswami",info: "PhD, post-doc at UT-Austin",link: "https://www.linkedin.com/in/samrat-goswami-b8819b15a"}
+  - {name: "Tathagata Ray",info: "PhD, Prof. BITS, Pilani,India",link: "https://etd.ohiolink.edu/pg_10?0::NO:10:P10_ACCESSION_NUM:osu1155212604"}
+  - {name: "Wulue Zhao",info: "PhD",link: ""}
 
 projects:
   - {tag: "p1",name: "Data sparsification",link: ""}
@@ -252,14 +252,13 @@ children_of_c21:
 invited_talks:
   - {tag: "", text: "<a href=\"https://www.birs.ca/events/2018/5-day-workshops/18w5140\">Multiparameter persistent homology</a>, &nbsp;BIRS-CMO, Mexico, August, 2018."}
   - {tag: "", text: "<a href=\"https://dccg.upc.edu/irp2018/details-of-the-activities/il1/\">Computational Topology and Data Analysis</a>, Intensive Research Program in Discrete, Combinatorial and Computational Geometry, CRM, Spain, 2018"}
-  - {tag: "", text: "A tool for approximating the persisitence of Rips filtrations efficiently,
-			<a href=\"https://www.ima.umn.edu/%7Emlesnick/Mini_Symposium_2016.html\">SoCG workshop on Compu. Topo, 2016</a>&nbsp;&nbsp; [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/SimBa/SimBa.pdf\">talk slides</a>]<a href=\"https://www.ima.umn.edu/%7Emlesnick/Mini_Symposium_2016.html\"><br></a>"}
+  - {tag: "", text: "A tool for approximating the persisitence of Rips filtrations efficiently, SoCG workshop on Compu. Topo, 2016&nbsp;&nbsp; [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/SimBa/SimBa.pdf\">talk slides</a>]<a href=\"https://www.ima.umn.edu/%7Emlesnick/Mini_Symposium_2016.html\"><br></a>"}
   - {tag: "", text: "Multiscale Mapper, <a href=\"http://ist.ac.at/acat/\">ACAT workshop, IST-Austria, 2015</a><br>"}
   - {tag: "", text: "Computational topology in reconstruction, mesh generation, and data analysis, Keynote in <a href=\"https://projects.cs.dal.ca/cccg2014/programme.html\">Canad. Conf. Computational Geometry, 2014</a> [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/CCCG14/CCCG14.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "Computing persistence for simplicial maps with application to data sparsification, <a href=\"http://www.ima.umn.edu/2013-2014/W4.28-5.2.14/\">IMA workshop on Topology and Geomtry of Networks and Discrete Metric Spaces</a>, 2014, [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/simplicial-map/PersistenceForSimplicialMap.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "Graph Induced Complex, <a href=\"http://www.ima.umn.edu/2013-2014/W10.28-11.1.13/\">IMA workshop on Modern application of homology and Cohomology</a>, 2013 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/GIC/GIC.pdf\">talk slides</a>]<br>"}
-  - {tag: "", text: "Better handles and tunnels, workshop&nbsp; on <a href=\"http://zeus.mat.puc-rio.br/%7Esocg2013/index.php/workshops/geometric-computing-challenges\">geometric computing</a>, SoCG 2013[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/HanTun/HanTun.ppt\">talk slides</a>]<br>"}
-  - {tag: "", text: "Delaunay mesh generations, workshop on <a href=\"http://zeus.mat.puc-rio.br/%7Esocg2013/index.php/workshops/mesh-generation\">mesh generation</a>, SoCG 2013 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/DelMesh2013.pptx\">talk slides</a>]<br>"}
+  - {tag: "", text: "Better handles and tunnels, workshop&nbsp; on geometric computing, SoCG 2013[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/HanTun/HanTun.ppt\">talk slides</a>]<br>"}
+  - {tag: "", text: "Delaunay mesh generations, workshop on mesh generation, SoCG 2013 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/DelMesh2013.pptx\">talk slides</a>]<br>"}
   - {tag: "", text: "a href=\"http://www.mfo.de/occasion/1218/www_view\">Delaunay mesh generation,</a>Oberwolfach workshop on Triangulations, 2012 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/Delmesh.pptx\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/OpHom/OHCP-IAS.pdf\">Computing homology cycles with certified geometry</a>, Computational Topology workshop, <a href=\"http://www.fields.utoronto.ca/programs/scientific/11-12/discretegeom/wksp_comptop/\">Fields Institute</a>, 2011, and <a href=\"http://www.math.ias.edu/seminars/abstract?event=43554\">Institute of Advanced Studies,</a> Princeton, 2012[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/OpHom/OHCP-IAS.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.siam.org/meetings/gdspm11/invited.php\">Computational geometry and topology meet geometric modeling</a>, SIAM-GD 2011, [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/SIAM-GD11/SIAM-GD11.pptx\">talk slides</a>]<br>"}
@@ -268,23 +267,22 @@ invited_talks:
   - {tag: "", text: "<a href=\"http://www.cse.iitd.ac.in/%7Enaveen/activities/wshp-geometry/\">Computing homology cycles with certified geometry</a>, Workshop on Geometric Computing, IIT Delhi, Nov. 2010[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/paper/homology-generators/talk.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.math.utk.edu/barrett/\">Convergence, stability, and approximation  of Laplace spectra</a>, Discrete Differential Geometry workshop, U. Tennessee,  May 10<br>"}
   - {tag: "", text: "<a href=\"http://www.birs.ca/birspages.php?task=displayevent&amp;event_id=09w5112\">Cut locus and topology from point data</a>, BIRS workshop on data analysis, March  09<br>"}
-  - {tag: "", text: "<a href=\"http://www.birs.ca/birspages.php?task=eventvideos&amp;event_id=09w5119\">Lifting the curse of slivers from surface reconstruction (Video)</a>, BIRS workshop       on Computational Mathematics on Discrete Surfaces, February 09<br>"}
-  - {tag: "", text: "<a href=\"http://cse.seas.wustl.edu/About/Events.asp?EventType=Colloquia&amp;EventID=1343\">Computing handles and tunnels in 3D models,
-		</a> Colloquium, WUSTL, February 08  [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">talk slide</a><a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">]</a><br>"}
-  - {tag: "", text: "<a href=\"http://people.cs.uchicago.edu/%7Eniyogi/conference/index.html\">Geometric and topological approaches to data analysis</a> , October, 2007                     <a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/paper/extract-manifold/talk.pdf\">[talk slide]</a>."}
+  - {tag: "", text: "<a href=\"http://www.birs.ca/birspages.php?task=eventvideos&amp;event_id=09w5119\">Lifting the curse of slivers from surface reconstruction (Video)</a>, BIRS workshop on Computational Mathematics on Discrete Surfaces, February 09<br>"}
+  - {tag: "", text: "Computing handles and tunnels in 3D models, Colloquium, WUSTL, February 08  [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">talk slide</a><a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">]</a><br>"}
+  - {tag: "", text: "<a href=\"http://people.cs.uchicago.edu/%7Eniyogi/conference/index.html\">Geometric and topological approaches to data analysis</a> , October, 2007 <a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/paper/extract-manifold/talk.pdf\">[talk slide]</a>."}
   - {tag: "", text: "<a href=\"http://www-sop.inria.fr/geometrica/collaborations/geotopal/\">GeoTopAl 2007
 		</a><br>"}
-  - {tag: "", text: "<a href=\"http://www.isical.ac.in/%7Eisaac06/\">ISAAC    2006</a><br>"}
-  - {tag: "", text: "<a href=\"http://www.lorentzcenter.nl/lc/web/2006/20060306/program.php3?wsid=169\">Tessellations in the Sciences, Lorentz Center, Lieden Univ., March 2006</a>&nbsp;"}
-  - {tag: "", text: "<a href=\"http://www.research.att.com/%7Ekrishnas/fwcg05/\">15th  Fall workshop on Computational Geometry, 2005</a>"}
-  - {tag: "", text: "<a href=\"http://geometry.poly.edu/realworld/Seminars/tamal.html\">Othmer Institute seminar, 2005</a>"}
+  - {tag: "", text: "<a href=\"http://www.isical.ac.in/%7Eisaac06/\">ISAAC 2006</a><br>"}
+  - {tag: "", text: "Tessellations in the Sciences, Lorentz Center, Lieden Univ., March 2006&nbsp;"}
+  - {tag: "", text: "15th Fall workshop on Computational Geometry, 2005"}
+  - {tag: "", text: "Othmer Institute seminar, 2005"}
   - {tag: "", text: "<a href=\"http://www.dis.uniroma1.it/%7Ealgo02\">ALGO2002</a><br>"}
   - {tag: "", text: "<a href=\"http://www-sop.inria.fr/prisme/ECG/workshop/final\">ECG Final Workshop 03</a>&nbsp;"}
   - {tag: "", text: "DIMACS workshop on Surface Reconstruction"}
   - {tag: "", text: "DIMACS workshop on computer aided design and manufacturing"}
-  - {tag: "t1", text: "<a href=\"http://www.math.uwo.ca/%7Ejardine/at-cs.html\">Conference on  Algebraic Topological Methods in Computer Science</a> <br>"}
+  - {tag: "t1", text: "Conference on  Algebraic Topological Methods in Computer Science<br>"}
   - {tag: "t2", text: "Colloquiam"}
-  - {tag: "t3", text: "<a href=\"http://www-or.amp.i.kyoto-u.ac.jp/algo-eng/seminar/ws001030_abs.html\">Workshop on Algorithm Engineering as a New Paradigm</a> <br>"}
+  - {tag: "t3", text: "Workshop on Algorithm Engineering as a New Paradigm<br>"}
   - {tag: "t4", text: "Solid Modeling Technology and Applications, SME"}
 
 children_of_t1:
@@ -320,28 +318,28 @@ children_of_o2:
   - {name: "CAD", link: "http://www.journals.elsevier.com/computer-aided-design/editorial-board/"}
 
 children_of_o3:
-  - {name: "Special issue of IJFCS", link: "http://www.cs.ust.hk/faculty/scheng/ijfcs.html"}
+  - {name: "Special issue of IJFCS", link: ""}
 
 children_of_o4:
   - {name: "Solid Modeling Association (08-11)", link: "http://solidmodeling.org/layout.php?nextlink=executives"}
 
 children_of_o5:
-  - {name: "11th Meshing Roundtable 2002", link: "http://www.imr.sandia.gov/"}
+  - {name: "11th Meshing Roundtable 2002", link: ""}
 
 children_of_o6:
-  - {name: "International Symposium on Voronoi Diagrams in Science and Engineering", link: "http://www.simplex.t.u-tokyo.ac.jp/~vd2004"}
+  - {name: "International Symposium on Voronoi Diagrams in Science and Engineering", link: ""}
 
 children_of_o7:
   - {name: "TGDA@OSU 2016, conference on topology, geometry, and data analysis", link: "http://www.tgda.osu.edu/tgda-conf-osu.html"}
-  - {name: "Workshop on Computational Topology and Data Analysis", link: "http://zeus.mat.puc-rio.br/~socg2013/index.php/workshops/computational-topology-and-data-analysis"}
-  - {name: "Mini-symposium on Geometric modeling with point samples", SIAM Geometric Design, 2003", link: "http://www.siam.org/meetings/gd03/program.htm"}
-  - {name: "Mini-Symposium on Delaunay Meshing of Surfaces and Volumes", SIAM Geometric Design, 2005", link: "http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=4865"}
+  - {name: "Workshop on Computational Topology and Data Analysis", link: ""}
+  - {name: "Mini-symposium on "Geometric modeling with point samples", SIAM Geometric Design, 2003", link: ""}
+  - {name: "Mini-Symposium on  "Delaunay Meshing of Surfaces and Volumes", SIAM Geometric Design, 2005", link: "http://meetings.siam.org/sess/dsp_programsess.cfm?SESSIONCODE=4865"}
   - {name: "DIMACS Surface Reconstruction Implementation Challenge, 2003", link: "http://www.cse.ohio-state.edu/~tamaldey/sr-challenge.ppt"}
 
 children_of_o8:
   - {name: "Summer school on Delaunay Mesh Generation, 2009, RWTH, Aachen, Germany", link: ""}
   - {name: "7th Max-Planck Advanced Course on Foundations of Computer Science, ADFOCS06, August 2006", link: "http://www.mpi-sb.mpg.de/adfocs"}
-  - {name: "Summer school on computational geometry Fu-Berlin, October, 2003", link: "http://www.inf.fu-berlin.de/graduate-programs/%20cgc/Veranstaltungen/Schulen/Herbst03/abstracts.html"}
-  - {name: "Surface and Volume meshing, CAD/Graphics 2005, Hong-Kong", link: "http://conference.ieem.ust.hk/~cadcg05/tutorials.htm"}
+  - {name: "Summer school on computational geometry Fu-Berlin, October, 2003", link: ""}
+  - {name: "Surface and Volume meshing, CAD/Graphics 2005, Hong-Kong", link: ""}
   - {name: "Reconstruction and feature extraction from point cloud data with mathematical reasoning, SIAM conference on Geometric Design, Phoenix, 2005", link: "http://www.siam.org/meetings/gd05/"}
 
