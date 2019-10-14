@@ -29,17 +29,7 @@ The Code Fellas team was tasked with redesigning a static web site. The site cho
    $ bundle install # install gems 
   ```
 
-3. Choose one of the following methods to run the application
-
-    - With build folder:
-
-        - Create static files for each file located in your source folder.
-        ```
-          $ bundle exec middleman build
-        ```
-        - Open the *build* folder inside the main project folder.
-
-        - Open the *index.html* page in Firefox.
+3. Run the application by following this list:
 
    - With middleman server:
         - start the preview web-server
@@ -47,7 +37,7 @@ The Code Fellas team was tasked with redesigning a static web site. The site cho
         ```
           $ bundle exec middleman server
         ```
-        - Open  *localhost:4567* in Firefox.
+        - Open  the link in "View your site at:____" in Firefox.
 ***
 
 ## Developers:
