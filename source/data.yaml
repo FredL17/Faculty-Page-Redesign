@@ -119,7 +119,135 @@ teaching:
   - {time: "Spring 2000",name: "Shape Modeling in graphics and visualization",link: ""}
 
 program_committee_member:
-  - {}
+  - {tag: "c1",name: "SoCG"}
+  - {tag: "c2",name: "NASAGEM"}
+  - {tag: "c3",name: "ISAAC"}
+  - {tag: "c4",name: "Pacific Graphics"}
+  - {tag: "c5",name: "SPM"}
+  - {tag: "c6",name: "SMI"}
+  - {tag: "c7",name: "Point Graphics"}
+  - {tag: "c8",name: "3DPVT"}
+  - {tag: "c9",name: "SOCG"}
+  - {tag: "c10",name: "Solid Modeling"}
+  - {tag: "c11",name: "SODA"}
+  - {tag: "c12",name: "FSTTC"}
+  - {tag: "c13",name: "WALCOM"}
+  - {tag: "c14",name: "SGP"}
+  - {tag: "c15",name: "ISVD"}
+  - {tag: "c16",name: "GMP"}
+  - {tag: "c17",name: "SoCG Video"}
+  - {tag: "c18",name: "TopoInfoVis"}
+  - {tag: "c19",name: "CAD graphics"}
+  - {tag: "c20",name: "EuroCG"}
+  - {tag: "c21",name: "SWAT"}
+
+children_of_c1:
+  - {num: "2012",link: "http://socg2012.web.unc.edu/"}
+  - {num: "2019",link: "http://eecs.oregonstate.edu/socg19/index.html"}
+
+children_of_c2:
+  - {num: "07",link: "http://www.gdv.uni-hannover.de/events/hcw07/the_conference/nasa_gem_workshop/index.php"}
+
+children_of_c3:
+  - {num: "06",link: "http://www.isical.ac.in/~isaac06/"}
+
+children_of_c4:
+  - {num: "06",link: "http://graphics.im.ntu.edu.tw/pg2006/"}
+
+children_of_c5:
+  - {num: "04",link: "http://www.ce.washington.edu/sm04/"}
+  - {num: "05",link: "http://www.gvu.gatech.edu/~jarek/spm"}
+  - {num: "06",link: "http://ralph.cs.cf.ac.uk/SPM06.html"}
+  - {num: "07",link: "http://cg.cs.tsinghua.edu.cn/spm2007/"}
+  - {num: "08",link: "http://www.cs.sunysb.edu/spm08/"}
+  - {num: "09",link: "http://www.siam.org/meetings/gdspm09/"}
+  - {num: "10",link: "http://www.cs.technion.ac.il/spm2010/"}
+  - {num: "11",link: "http://www.siam.org/meetings/gdspm11/"}
+  - {num: "12",link: "http://spm12.u-bourgogne.fr/"}
+  - {num: "13",link: "https://archive.siam.org/meetings/gdspm13/"}
+  - {num: "14",link: "http://spring.mae.cuhk.edu.hk/~smi2014/index.html"}
+  - {num: "15",link: "http://www.siam.org/meetings/gdspm15/"}
+  - {num: "17",link: "https://s3pm.icsi.berkeley.edu/s3pm/spm.html"}
+
+children_of_c6:
+  - {num: "04",link: "http://smism04.ge.imati.cnr.it/"}
+  - {num: "05",link: "http://www.shapemodeling.org/"}
+  - {num: "06",link: "http://www.ifs.tohoku.ac.jp/SMI06/"}
+  - {num: "07",link: "http://smi07.liris.cnrs.fr/"}
+  - {num: "08",link: "http://www.cs.sunysb.edu/smi08/"}
+  - {num: "09",link: "http://cgcad.thss.tsinghua.edu.cn/SMI2009/"}
+  - {num: "10",link: "http://mdm.ge.imati.cnr.it/related-info/conferences-and-workshops/shape-modeling-international-2010"}
+  - {num: "11",link: "http://www1.idc.ac.il/smi2011/"}
+  - {num: "12",link: "http://www.shapemodeling.org/"}
+  - {num: "13",link: "https://www.siggraph.org/event/smi-2013/"}
+  - {num: "14",link: "http://spring.mae.cuhk.edu.hk/~smi2014/index.html"}
+  - {num: "15",link: "http://www-rech.telecom-lille.fr/smi2015/"}
+  - {num: "17",link: "https://s3pm.icsi.berkeley.edu/s3pm/smi.html"}
+
+children_of_c7:
+  - {num: "04",link: "http://graphics.ethz.ch/pbg/cfp.html"}
+  - {num: "05",link: "http://www.cs.princeton.edu/gfx/pbg05"}
+  - {num: "06",link: "http://graphics.ethz.ch/PBG06/"}
+  - {num: "07",link: "https://cgl.ethz.ch/events/pbg/07/"}
+  - {num: "08",link: "http://graphics.ethz.ch/events/pbg/08/"}
+
+children_of_c8:
+  - {num: "04",link: "http://www.umiacs.umd.edu/conferences/3dpvt04/"}
+  - {num: "08",link: "http://www.cc.gatech.edu/conferences/3DPVT08/3DPVT%2008.html"}
+
+children_of_c9:
+  - {num: "98",link: ""}
+  - {num: "03",link: "http://www.cs.umd.edu/areas/Theory/socg03"}
+
+children_of_c10:
+  - {num: "03",link: "http://www.ce.washington.edu/sm03/"}
+
+children_of_c11:
+  - {num: "03",link: "http://www.siam.org/meetings/da03"}
+  - {num: "14",link: "http://www.siam.org/meetings/da14/"}
+
+children_of_c12:
+  - {num: "95",link: ""}
+  - {num: "96",link: ""}
+  - {num: "97",link: ""}
+  - {num: "03",link: ""}
+
+children_of_c13:
+  - {num: "09",link: "http://www.isical.ac.in/~walcom/"}
+
+children_of_c14:
+  - {num: "09",link: "http://sgp09.mi.fu-berlin.de/"}
+  - {num: "10",link: "http://sgp2010.liris.cnrs.fr/"}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+
+children_of_c15:
+  - {num: "09",link: "http://www2.imm.dtu.dk/projects/ISVD/"}
+  - {num: "13",link: "http://bioinf.spbau.ru/isvd2013/"}
+
+children_of_c16:
+  - {num: "",link: ""}
+  - {num: "",link: ""}
+
+children_of_c17:
+  - {num: "",link: ""}
+
+children_of_c18:
+  - {num: "",link: ""}
+
+children_of_c19:
+  - {num: "",link: ""}
+
+children_of_c20:
+  - {num: "",link: ""}
+
+children_of_c21:
+  - {num: "",link: ""}
 
 invited_talks:
   - {}
