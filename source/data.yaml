@@ -259,7 +259,7 @@ invited_talks:
   - {tag: "", text: "Graph Induced Complex, <a href=\"http://www.ima.umn.edu/2013-2014/W10.28-11.1.13/\">IMA workshop on Modern application of homology and Cohomology</a>, 2013 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/GIC/GIC.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "Better handles and tunnels, workshop&nbsp; on geometric computing, SoCG 2013[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/HanTun/HanTun.ppt\">talk slides</a>]<br>"}
   - {tag: "", text: "Delaunay mesh generations, workshop on mesh generation, SoCG 2013 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/DelMesh2013.pptx\">talk slides</a>]<br>"}
-  - {tag: "", text: "a href=\"http://www.mfo.de/occasion/1218/www_view\">Delaunay mesh generation,</a>Oberwolfach workshop on Triangulations, 2012 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/Delmesh.pptx\">talk slides</a>]<br>"}
+  - {tag: "", text: "<a href=\"http://www.mfo.de/occasion/1218/www_view\">Delaunay mesh generation,</a>Oberwolfach workshop on Triangulations, 2012 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/Delmesh/Delmesh.pptx\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/OpHom/OHCP-IAS.pdf\">Computing homology cycles with certified geometry</a>, Computational Topology workshop, <a href=\"http://www.fields.utoronto.ca/programs/scientific/11-12/discretegeom/wksp_comptop/\">Fields Institute</a>, 2011, and <a href=\"http://www.math.ias.edu/seminars/abstract?event=43554\">Institute of Advanced Studies,</a> Princeton, 2012[<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/OpHom/OHCP-IAS.pdf\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.siam.org/meetings/gdspm11/invited.php\">Computational geometry and topology meet geometric modeling</a>, SIAM-GD 2011, [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/SIAM-GD11/SIAM-GD11.pptx\">talk slides</a>]<br>"}
   - {tag: "", text: "<a href=\"http://www.sandia.gov/imr/Speakers.html\">Delaunay refinement and its localization for meshing</a>, IMR 2011 [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/IMR11/IMR11.pptx\">talk slides</a>]<br>"}
@@ -270,8 +270,7 @@ invited_talks:
   - {tag: "", text: "<a href=\"http://www.birs.ca/birspages.php?task=eventvideos&amp;event_id=09w5119\">Lifting the curse of slivers from surface reconstruction (Video)</a>, BIRS workshop on Computational Mathematics on Discrete Surfaces, February 09<br>"}
   - {tag: "", text: "Computing handles and tunnels in 3D models, Colloquium, WUSTL, February 08  [<a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">talk slide</a><a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/talk/ht.ppt\">]</a><br>"}
   - {tag: "", text: "<a href=\"http://people.cs.uchicago.edu/%7Eniyogi/conference/index.html\">Geometric and topological approaches to data analysis</a> , October, 2007 <a href=\"http://www.cse.ohio-state.edu/%7Etamaldey/paper/extract-manifold/talk.pdf\">[talk slide]</a>."}
-  - {tag: "", text: "<a href=\"http://www-sop.inria.fr/geometrica/collaborations/geotopal/\">GeoTopAl 2007
-		</a><br>"}
+  - {tag: "", text: "<a href=\"http://www-sop.inria.fr/geometrica/collaborations/geotopal/\">GeoTopAl 2007</a><br>"}
   - {tag: "", text: "<a href=\"http://www.isical.ac.in/%7Eisaac06/\">ISAAC 2006</a><br>"}
   - {tag: "", text: "Tessellations in the Sciences, Lorentz Center, Lieden Univ., March 2006&nbsp;"}
   - {tag: "", text: "15th Fall workshop on Computational Geometry, 2005"}
