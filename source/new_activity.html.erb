@@ -1,0 +1,51 @@
+<% data= YAML.load(File.open(File.join(File.dirname(__FILE__),'data.yaml'))) %>
+<h1>Professional Activities</h1>
+<h2 class = "act">Program Committee Member</h2>
+<ul>
+<% data["program_committee_member"].each do |n| %>
+<li> <%= n["name"] %>
+  <% data["children_of_#{n["tag"]}"].each do |m| %>
+  <% if m["link"] !="" %>
+    <a href ="<%= m["link"] %>"><%= m["num"]%></a>
+  <%else%>
+  <%= m["num"]%>
+  <%end%>
+<%end%>
+</li>
+<%end%>
+</ul>
+
+<h2 class = "act">Invited Talks</h2>
+<ul>
+	<% data["invited_talks"].each do |n| %>
+	<li> <%= n["text"] %>
+	<% if n["tag"] != "" %>
+	   <ul>
+	   	<% data["children_of_#{n["tag"]}"].each do |m| %>
+	   	<li> <%= m["text"] %> </li>
+	   	<%end%>
+	   </ul>
+	<%end%>
+    </li>
+	<%end%>
+</ul>
+
+<h2 class = "act">Other Activities</h2>
+<ul>
+<% data["other_activities"].each do |n| %>
+<li><%= n["name"] %>
+  <ul>
+  <% data["children_of_#{n["tag"]}"].each do |m| %>
+  <% if m["link"] !="" %>
+    <li><a href ="<%= m["link"] %>"><%= m["name"]%></a></li>
+  <%else%>
+  <li><%= m["name"]%></li>
+  <%end%>
+<%end%>
+</ul>
+</li>
+<%end%>
+</ul>
+
+
+
