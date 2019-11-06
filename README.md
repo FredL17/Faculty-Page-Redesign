@@ -1,5 +1,4 @@
-# Project 4
-## Static Web Design
+# Static Web Design
 
 
 ***
